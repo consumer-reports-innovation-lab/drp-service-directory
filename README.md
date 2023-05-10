@@ -57,3 +57,10 @@ XXX other onboarding steps
 
 Updates to the DRP service directories need to be approved by one of the repository owners, as well as any CODEOWNER which may be responsible for delegated businesses. Repository owners MUST NOT update the entries themselves without provable chain of custody. When an entry is updated in a GitHub pull request a simple test will run to make sure the files in the repository are valid, and when that pull request is merged, the service directory will reflect the new changes in a matter of moments.
 
+## About the Publishing Script
+
+We use a simple GitHub automation to generate these files; there are no dependencies to the python script in `publish_script` and it can be invoked from the root of the repository for manual verification as `python -m publish_script` with at least python 3.10.
+
+Basically it finds all the JSON files in each agent and business directory, does some trivial validation on them and then writes them in to a large dict which is serialized to the correct location for publishing.
+
+The actual publishing is handled by a GitHub Actions automation in `.github/workflows`.

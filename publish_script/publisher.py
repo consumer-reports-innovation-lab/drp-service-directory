@@ -21,6 +21,19 @@ class Publisher():
             for af in agent_files
         ]
 
+        document_ids = [
+            af.document["id"]
+            for af in agent_files
+        ]
+        duplicate_ids = [
+            document_id
+            for document_id in document_ids
+            if document_ids.count(document_id) > 1
+        ]
+        unique_duplicate_ids = list(set(duplicate_ids))
+        if len(unique_duplicate_ids) > 0:
+            raise Exception(f"Duplicate IDs: {unique_duplicate_ids}")
+
         logging.info(f"{len(directory)} entities to export to {constructor_cls.to_file()}")
 
         with open(constructor_cls.to_file(), "w") as f:
