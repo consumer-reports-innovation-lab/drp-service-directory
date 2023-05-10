@@ -1,3 +1,4 @@
-from . import Publisher
+from . import *
 
-Publisher().generate()
+Publisher().generate(AgentFile)
+Publisher().generate(BusinessFile)
