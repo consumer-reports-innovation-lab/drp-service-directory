@@ -13,13 +13,6 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-      - uses: jannekem/run-python-script-action@v1
+      - uses: mathiasvr/command-output@v2.0.0
         with:
-          script: |
-            import os
-            print(os.getcwd())
-            print(os.listdir())
-            from .publish_script import *
-
-            Publisher().generate(AgentFile)
-            Publisher().generate(BusinessFile)
+          run: python -m publish_script
