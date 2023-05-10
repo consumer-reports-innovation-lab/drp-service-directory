@@ -1,0 +1,22 @@
+name: Generate Directories
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            from publish_script import *
+
+            Publisher().generate(AgentFile)
+            Publisher().generate(BusinessFile)
