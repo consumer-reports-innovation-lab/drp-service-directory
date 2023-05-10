@@ -1,0 +1,10 @@
+{
+    "id": "TRANSCEND_TEST_001",
+    "name": "Transcend Test Instance",
+    "logo": null,
+    "api_base": "https://drp.staging.transcen.dental",
+    "supported_actions": ["access"],
+    "web_url": "https://transcend.io",
+    "technical_contact": "",
+    "business_contact": ""
+}
