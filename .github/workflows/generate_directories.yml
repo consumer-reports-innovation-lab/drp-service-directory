@@ -19,7 +19,7 @@ jobs:
             import os
             print(os.getcwd())
             print(os.listdir())
-            from publish_script import *
+            from .publish_script import *
 
             Publisher().generate(AgentFile)
             Publisher().generate(BusinessFile)
