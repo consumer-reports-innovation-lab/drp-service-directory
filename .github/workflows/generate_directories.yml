@@ -16,6 +16,9 @@ jobs:
       - uses: jannekem/run-python-script-action@v1
         with:
           script: |
+            import os
+            print(os.getcwd())
+            print(os.listdir())
             from publish_script import *
 
             Publisher().generate(AgentFile)
