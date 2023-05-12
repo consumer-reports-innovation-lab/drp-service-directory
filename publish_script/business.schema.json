@@ -1,0 +1,38 @@
+{
+    "$id": "https://sd.datarightsprotocol.org/business.schema.json",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "pattern": "[A-Z_]+"
+        },
+        "name": { "type": "string" },
+        "logo": { "type": ["null", "string"] },
+        "api_base": {
+            "type": "string",
+            "pattern": "https://[a-z/.-]+"
+        },
+        "supported_actions": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "access", "deletion",
+                    "sale:opt_out", "sale:opt_in",
+                    "access:categories", "access:specific"
+                ]
+            }
+        },
+        "web_url": {
+            "type": "string",
+            "pattern": "https://[a-z/.-]+"
+        },
+        "technical_contact": {
+            "type": "string"
+        },
+        "business_contact": {
+            "type": "string"
+        }
+
+    }
+}

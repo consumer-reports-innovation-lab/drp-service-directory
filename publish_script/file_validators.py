@@ -2,22 +2,24 @@ import json
 import os
 from typing import List
 
+from jsonschema import validate
+from jsonschema.exceptions import ValidationError
+
 class AgentFile():
     def __init__(self, filename):
         self.filename = filename
         self.document = None
+        with open("publish_script/agent.schema.json", "r") as f:
+            self.schema = json.load(f)
 
     def validate(self):
         with open(self.filename, 'r') as f:
             self.document = json.load(f)
-
-            self.document["id"] is not None 
-            self.document["verify_key"] is not None 
-            self.document["web_url"] is not None 
-            self.document["technical_contact"] is not None 
-            self.document["business_contact"] is not None 
-            self.document["identity_assurance_url"] is not None 
-
+            # re-raise with the filename in the message
+            try:
+                validate(instance=self.document, schema=self.schema)
+            except ValidationError as e:
+                raise Exception(f"failed to validate {self.filename}:" + e.message)
             return True
 
     @classmethod
@@ -32,21 +34,17 @@ class BusinessFile():
     def __init__(self, filename):
         self.filename = filename
         self.document = None
+        with open("publish_script/business.schema.json", "r") as f:
+            self.schema = json.load(f)
 
     def validate(self):
         with open(self.filename, 'r') as f:
             self.document = json.load(f)
-
-            self.document["id"] is not None 
-            self.document["name"] is not None 
-            self.document["logo"] is not None 
-            self.document["api_base"] is not None 
-            if not isinstance(self.document["supported_actions"], list):
-                raise Exception("supported_actions must be list")
-            self.document["web_url"] is not None 
-            self.document["technical_contact"] is not None 
-            self.document["business_contact"] is not None 
-
+            # re-raise with the filename in the message
+            try:
+                validate(instance=self.document, schema=self.schema)
+            except ValidationError as e:
+                raise Exception(f"failed to validate {self.filename}:" + e.message)
             return True
 
     @classmethod

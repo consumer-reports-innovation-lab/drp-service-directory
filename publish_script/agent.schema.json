@@ -1,0 +1,30 @@
+{
+    "$id": "https://sd.datarightsprotocol.org/agent.schema.json",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "pattern": "[A-Z_]+"
+        },
+        "name": { "type": "string" },
+        "verify_key": {
+            "type": "string",
+            "pattern": "[A-Fa-f0-9]+"
+        },
+        "web_url": {
+            "type": "string",
+            "pattern": "https://[a-z./-]+"
+        },
+        "identity_assurance_url": {
+            "type": "string",
+            "pattern": "https://[a-z./-]+"
+        },
+        "technical_contact": {
+            "type": "string"
+        },
+        "business_contact": {
+            "type": "string"
+        }
+
+    }
+}
