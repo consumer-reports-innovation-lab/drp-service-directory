@@ -23,6 +23,10 @@
                 ]
             }
         },
+        "privacy_policy_url": {
+            "type": "string",
+            "pattern": "https://[a-z/.-]+"
+        },
         "web_url": {
             "type": "string",
             "pattern": "https://[a-z/.-]+"
@@ -33,6 +37,5 @@
         "business_contact": {
             "type": "string"
         }
-
     }
 }
