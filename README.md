@@ -4,13 +4,11 @@ This repository contains a bunch of JSON documents describing the various [busin
 
 ## Using the Directories
 
-Directories are published automatically to GitHub Pages when changes are made to the `main` branch and available on https://XXX.datarightsprotocol.org/businesses.json and https://XXX.datarightsprotocol.org/agents.json 
+Directories are published automatically to GitHub Pages when changes are made to the `main` branch and available on https://discovery.datarightsprotocol.org/businesses.json and https://discovery.datarightsprotocol.org/agents.json 
 
 ### Update Notifications
 
-If you want to receive webhook notifications when this repository is updated please
-XXX
-(rrix to figure this out, probably modify a GitHub action which makes HTTP requests)
+If you want to receive webhook notifications when this repository is updated please contact @rrix
 
 ## New Actors
 
