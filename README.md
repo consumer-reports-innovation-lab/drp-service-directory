@@ -43,7 +43,7 @@ Each agent will go through specific onboarding steps outlined XXX here, and once
     "name": "Consumer Legible Agent App Name",
     "verify_key": "Hex encoded Libsodium public verifying key for signed requests",
     "web_url": "business's homepage",
-    "technical_contact": "an email contact for the techical integration. this may be a contact at a PIP which the business has delegated to",
+    "technical_contact": "an email contact for the techical integration",
     "business_contact": "an email address for contacting a person within the business who is knowledgeable about the privacy program and DRP integration",
     "identity_assurance_url": "a link to an HTML or PDF document describing the process the agent enacts to verify a consumer's identity; a signed request containing these identities should be understood to have gone through this process."
 }
