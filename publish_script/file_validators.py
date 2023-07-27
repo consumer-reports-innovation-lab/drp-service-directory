@@ -27,8 +27,16 @@ class AgentFile():
         return os.path.join(os.getcwd(), "agents")
 
     @classmethod
-    def to_file(cls):
+    def export_loc(cls):
         return os.path.join(os.getcwd(), "docs/agents.json")
+
+    def to_file(self):
+        return os.path.join(
+            os.getcwd(),
+            "docs",
+            "agents",
+            f"{self.document['id']}.json"
+        )
 
 class BusinessFile():
     def __init__(self, filename):
@@ -52,5 +60,13 @@ class BusinessFile():
         return os.path.join(os.getcwd(), "businesses")
 
     @classmethod
-    def to_file(cls):
+    def export_loc(cls):
         return os.path.join(os.getcwd(), "docs/businesses.json")
+
+    def to_file(self):
+        return os.path.join(
+            os.getcwd(),
+            "docs",
+            "businesses",
+            f"{self.document['id']}.json"
+        )
