@@ -40,8 +40,8 @@ class Publisher():
         for entry in directory_entries:
             path = entry.to_file()
             logging.debug(f"exporting {entry.document['id']} to {path}")
-            # with open(path, "w") as f:
-            #     json.dump(entry, f, indent=4)
+            with open(path, "w") as f:
+                json.dump(entry, f, indent=4)
 
         with open(constructor_cls.export_loc(), "w") as f:
             json.dump(directory, f, indent=4)
