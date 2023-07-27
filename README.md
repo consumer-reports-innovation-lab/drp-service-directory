@@ -57,8 +57,8 @@ Updates to the DRP service directories need to be approved by one of the reposit
 
 ## About the Publishing Script
 
-We use a simple GitHub automation to generate these files; there are no dependencies to the python script in `publish_script` and it can be invoked from the root of the repository for manual verification as `python -m publish_script` with at least python 3.10.
+We use a simple GitHub automation to generate these files; the script depends on `jsonschema` from PyPI to validate the entities and it can be invoked from the root of the repository for manual verification as `python -m publish_script` with at least python 3.10.
 
-Basically it finds all the JSON files in each agent and business directory, does some trivial validation on them and then writes them in to a large dict which is serialized to the correct location for publishing.
+In short it finds all the JSON files in each agent and business directory, performs schema validation on them and then writes them in to a large list which is serialized to the correct location for publishing.
 
 The actual publishing is handled by a GitHub Actions automation in `.github/workflows`.
