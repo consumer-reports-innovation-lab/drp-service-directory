@@ -1,0 +1,13 @@
+{
+    "id": "onetrust_staging_001",
+    "name": "OneTrust Test Instance",
+    "logo": null,
+    "api_base": "https://staging.1trust.ninja/api/datasubject/v2/crp",
+    "supported_actions": [
+        "access",
+        "deletion"
+    ],
+    "web_url": "https://onetrust.com",
+    "technical_contact": "fixme",
+    "business_contact": "fixme"
+}
