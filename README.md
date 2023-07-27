@@ -4,7 +4,7 @@ This repository contains a bunch of JSON documents describing the various [busin
 
 ## Using the Directories
 
-Directories are published automatically to GitHub Pages when changes are made to the `main` branch and available on https://discovery.datarightsprotocol.org/businesses.json and https://discovery.datarightsprotocol.org/agents.json 
+Directories are published automatically to GitHub Pages when changes are made to the `main` branch and available on https://discovery.datarightsprotocol.org/businesses.json and https://discovery.datarightsprotocol.org/agents.json; individual Agents and Businesses can also be fetched by querying based on the ID: https://discovery.datarightsprotocol.org/businesses/BUSINESS_ID.json or https://discovery.datarightsprotocol.org/agents/AGENT_ID.json .
 
 ### Update Notifications
 
