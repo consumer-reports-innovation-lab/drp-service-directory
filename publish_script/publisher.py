@@ -9,21 +9,16 @@ class Publisher():
         pass
 
     def generate(self, constructor_cls):
-        agent_files = self.collect_files(
+        directory_entries = self.collect_files(
             constructor_cls.from_dir(),
             constructor_cls
         )
-        for af in agent_files:
-            af.validate()
-
-        directory = [
-            af.document
-            for af in agent_files
-        ]
+        for de in directory_entries:
+            de.validate()
 
         document_ids = [
-            af.document["id"]
-            for af in agent_files
+            de.document["id"]
+            for de in directory_entries
         ]
         duplicate_ids = [
             document_id
@@ -34,9 +29,21 @@ class Publisher():
         if len(unique_duplicate_ids) > 0:
             raise Exception(f"Duplicate IDs: {unique_duplicate_ids}")
 
-        logging.info(f"{len(directory)} entities to export to {constructor_cls.to_file()}")
+        directory = [
+            de.document
+            for de in directory_entries
+        ]
 
-        with open(constructor_cls.to_file(), "w") as f:
+        logging.info(f"{len(directory)} entities to export to {constructor_cls.export_loc()} (and individual references)")
+        assert(len(directory) == len(directory_entries))
+
+        for entry in directory_entries:
+            path = entry.to_file()
+            logging.debug(f"exporting {entry.document['id']} to {path}")
+            # with open(path, "w") as f:
+            #     json.dump(entry, f, indent=4)
+
+        with open(constructor_cls.export_loc(), "w") as f:
             json.dump(directory, f, indent=4)
 
     def collect_files(self, root_path: str, constructor_cls):
