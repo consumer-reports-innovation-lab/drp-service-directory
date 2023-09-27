@@ -3,7 +3,7 @@
     "name": "Transcend Test Instance",
     "logo": null,
     "api_base": "https://drp.staging.transcen.dental",
-    "supported_actions": ["access"],
+    "supported_actions": ["access", "delete"],
     "web_url": "https://transcend.io",
     "technical_contact": "",
     "business_contact": ""
