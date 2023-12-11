@@ -16,7 +16,7 @@
         "id": "onetrust_staging_001",
         "name": "OneTrust Test Instance",
         "logo": null,
-        "api_base": "https://staging.1trust.ninja/api/datasubject/v2/crp",
+        "api_base": "https://privacyportal-staging.1trust.ninja/",
         "supported_actions": [
             "access",
             "deletion"
