@@ -41,7 +41,7 @@ Each agent will go through specific onboarding steps outlined XXX here, and once
 {
     "id": "unique identifier matching [A-Z_]+ regular expression",
     "name": "Consumer Legible Agent App Name",
-    "verify_key": "Hex encoded Libsodium public verifying key for signed requests",
+    "verify_key": "Base64 encoded Libsodium public verifying key for signed requests",
     "web_url": "business's homepage",
     "technical_contact": "an email contact for the techical integration",
     "business_contact": "an email address for contacting a person within the business who is knowledgeable about the privacy program and DRP integration",

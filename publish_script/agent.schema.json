@@ -9,7 +9,7 @@
         "name": { "type": "string" },
         "verify_key": {
             "type": "string",
-            "pattern": "[A-Fa-f0-9]+"
+            "pattern": "[a-zA-Z0-9+/]+"
         },
         "web_url": {
             "type": "string",
