@@ -24,5 +24,18 @@
         "web_url": "https://onetrust.com",
         "technical_contact": "fixme",
         "business_contact": "fixme"
+    },
+    {
+        "id": "osirpip_prod_001",
+        "name": "Osirpip Prod Instance",
+        "logo": null,
+        "api_base": "https://osiraa.datarightsprotocol.org/osirpip/",
+        "supported_actions": [
+            "access",
+            "deletion"
+        ],
+        "web_url": "https://osiraa.datarightsprotocol.org",
+        "technical_contact": "drp.tech@consumer.org",
+        "business_contact": "drp.biz@consumer.org"
     }
 ]
