@@ -1,0 +1,9 @@
+{
+    "id": "PermissionSlip-DRP_Test_01",
+    "name": "PermissionSlip-DRP Test Instance 1",
+    "verify_key": "foo",
+    "web_url": "https://ps-drp_test_instance_1.osiraa.datarightsprotocol.org",
+    "technical_contact": "drp.tech@consumer.org",
+    "business_contact": "drp.biz@consumer.org",
+    "identity_assurance_url": "https://ps-drp_test_instance_1.osiraa.datarightsprotocol.org/identity_assurance"
+}
