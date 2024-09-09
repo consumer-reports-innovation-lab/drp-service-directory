@@ -13,19 +13,6 @@
         "business_contact": ""
     },
     {
-        "id": "onetrust_staging_001",
-        "name": "OneTrust Test Instance",
-        "logo": null,
-        "api_base": "https://privacyportal-staging.1trust.ninja",
-        "supported_actions": [
-            "access",
-            "deletion"
-        ],
-        "web_url": "https://onetrust.com",
-        "technical_contact": "fixme",
-        "business_contact": "fixme"
-    },
-    {
         "id": "osirpip_prod_001",
         "name": "Osirpip Prod Instance",
         "logo": null,
@@ -37,5 +24,18 @@
         "web_url": "https://osiraa.datarightsprotocol.org",
         "technical_contact": "drp.tech@consumer.org",
         "business_contact": "drp.biz@consumer.org"
+    },
+    {
+        "id": "onetrust_staging_001",
+        "name": "OneTrust Test Instance",
+        "logo": null,
+        "api_base": "https://privacyportal-staging.1trust.ninja",
+        "supported_actions": [
+            "access",
+            "deletion"
+        ],
+        "web_url": "https://onetrust.com",
+        "technical_contact": "fixme",
+        "business_contact": "fixme"
     }
 ]
