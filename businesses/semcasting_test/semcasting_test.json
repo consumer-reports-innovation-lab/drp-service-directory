@@ -1,0 +1,10 @@
+{
+    "id": "semcasting_001",
+    "name": "Semcasting Test Instance (privacychoice.com)",
+    "logo": null,
+    "api_base": "https://privacychoice.com/cr-api",
+    "supported_actions": ["access", "deletion"],
+    "web_url": "https://privacychoice.com/cr-api",
+    "technical_contact": "",
+    "business_contact": ""
+}

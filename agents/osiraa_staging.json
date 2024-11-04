@@ -1,0 +1,9 @@
+{
+    "id": "CR_AA_DRP_STAGE_ID_001",
+    "name": "OSIRAA Staging Instance",
+    "verify_key": "foo",
+    "web_url": "https://stage.osiraa.datarightsprotocol.org",
+    "technical_contact": "john.szinger@consumer.org",
+    "business_contact": "ginny.fahs@consumer.org",
+    "identity_assurance_url": "https://permissionslipcr.com/XXX"
+}
