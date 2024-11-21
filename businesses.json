@@ -1,5 +1,18 @@
 [
     {
+        "id": "OSIRPIP-CBID-Prod_001",
+        "name": "OSIRPIP Prod Deploy Instance",
+        "logo": null,
+        "api_base": "https://osiraa.datarightsprotocol.org/pip",
+        "supported_actions": [
+            "access",
+            "deletion"
+        ],
+        "web_url": "https://osiraa.datarightsprotocol.org/pip",
+        "technical_contact": "drp.tech@consumer.org",
+        "business_contact": "drp.biz@consumer.org"
+    },
+    {
         "id": "onetrust_staging_001",
         "name": "OneTrust Test Instance",
         "logo": null,
@@ -24,18 +37,5 @@
         "web_url": "https://transcend.io",
         "technical_contact": "",
         "business_contact": ""
-    },
-    {
-        "id": "osirpip_prod_001",
-        "name": "Osirpip Prod Instance",
-        "logo": null,
-        "api_base": "https://osiraa.datarightsprotocol.org/osirpip/",
-        "supported_actions": [
-            "access",
-            "deletion"
-        ],
-        "web_url": "https://osiraa.datarightsprotocol.org",
-        "technical_contact": "drp.tech@consumer.org",
-        "business_contact": "drp.biz@consumer.org"
     }
 ]

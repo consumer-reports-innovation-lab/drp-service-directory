@@ -1,0 +1,13 @@
+{
+    "id": "OSIRPIP-CBID-Prod_001",
+    "name": "OSIRPIP Prod Deploy Instance",
+    "logo": null,
+    "api_base": "https://osiraa.datarightsprotocol.org/pip",
+    "supported_actions": [
+        "access",
+        "deletion"
+    ],
+    "web_url": "https://osiraa.datarightsprotocol.org/pip",
+    "technical_contact": "drp.tech@consumer.org",
+    "business_contact": "drp.biz@consumer.org"
+}
