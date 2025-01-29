@@ -7,6 +7,9 @@
         "access",
         "deletion"
     ],
+    "supported_verfications": [
+        "email"
+    ],
     "web_url": "https://transcend.io",
     "technical_contact": "",
     "business_contact": ""
