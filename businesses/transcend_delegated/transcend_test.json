@@ -4,6 +4,7 @@
     "logo": null,
     "api_base": "https://drp.staging.transcen.dental",
     "supported_actions": ["access", "deletion"],
+    "supported_verfications": ["email"],
     "web_url": "https://transcend.io",
     "technical_contact": "",
     "business_contact": ""
