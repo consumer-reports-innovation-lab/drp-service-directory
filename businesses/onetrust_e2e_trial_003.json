@@ -1,0 +1,16 @@
+{
+    "id": "onetrust_e2e_trial_003",
+    "name": "OneTrust Test Instance",
+    "logo": null,
+    "api_base": "https://privacyportaltrial.onetrust.com",
+    "supported_actions": [
+        "deletion"
+    ],
+    "supported_verfications": [
+        "email",
+        "address"
+    ],
+    "web_url": "https://privacyportaltrial.onetrust.com",
+    "technical_contact": "shegde@onetrust.com",
+    "business_contact": "ksoll@onetrust.com"
+}

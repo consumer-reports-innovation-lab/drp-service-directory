@@ -1,21 +1,5 @@
 [
     {
-        "id": "onetrust_staging_001",
-        "name": "OneTrust Test Instance",
-        "logo": null,
-        "api_base": "https://privacyportal-staging.1trust.ninja",
-        "supported_actions": [
-            "access",
-            "deletion"
-        ],
-        "supported_verfications": [
-            "email"
-        ],
-        "web_url": "https://onetrust.com",
-        "technical_contact": "fixme",
-        "business_contact": "fixme"
-    },
-    {
         "id": "TRANSCEND_TEST_001",
         "name": "Transcend Test Instance",
         "logo": null,
@@ -30,6 +14,38 @@
         "web_url": "https://transcend.io",
         "technical_contact": "",
         "business_contact": ""
+    },
+    {
+        "id": "onetrust_e2e_trial_003",
+        "name": "OneTrust Test Instance",
+        "logo": null,
+        "api_base": "https://privacyportaltrial.onetrust.com",
+        "supported_actions": [
+            "deletion"
+        ],
+        "supported_verfications": [
+            "email",
+            "address"
+        ],
+        "web_url": "https://privacyportaltrial.onetrust.com",
+        "technical_contact": "shegde@onetrust.com",
+        "business_contact": "ksoll@onetrust.com"
+    },
+    {
+        "id": "onetrust_staging_001",
+        "name": "OneTrust Test Instance",
+        "logo": null,
+        "api_base": "https://privacyportal-staging.1trust.ninja",
+        "supported_actions": [
+            "access",
+            "deletion"
+        ],
+        "supported_verfications": [
+            "email"
+        ],
+        "web_url": "https://onetrust.com",
+        "technical_contact": "fixme",
+        "business_contact": "fixme"
     },
     {
         "id": "OSIRPIP-CBID-Prod_001",
