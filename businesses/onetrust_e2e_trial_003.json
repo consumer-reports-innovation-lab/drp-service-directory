@@ -1,6 +1,6 @@
 {
     "id": "onetrust_e2e_trial_003",
-    "name": "OneTrust Test Instance",
+    "name": "OneTrust E2E Trial Test Instance",
     "logo": null,
     "api_base": "https://privacyportaltrial.onetrust.com",
     "supported_actions": [
