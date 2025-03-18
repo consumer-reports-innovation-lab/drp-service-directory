@@ -1,0 +1,9 @@
+{
+    "id": "CR_AA_PS-DRP_PROD_01",
+    "name": "Pslip-DRP Prod Instance",
+    "verify_key": "ztXIRu3T4lr+2m68eXNcuGzP6ViffOpLm+944zbwai8=",
+    "web_url": "https://drp-ps.datarightsprotocol.org/",
+    "technical_contact": "drp.tech@consumer.org",
+    "business_contact": "drp.biz@consumer.org",
+    "identity_assurance_url": "https://drp-ps.datarightsprotocol.org/identity_assurance"
+}
