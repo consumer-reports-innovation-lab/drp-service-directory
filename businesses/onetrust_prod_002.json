@@ -1,0 +1,16 @@
+{
+    "id": "onetrust_prod_002",
+    "name": "OneTrust E2E Trial Prod Instance",
+    "logo": null,
+    "api_base": "https://privacyportal.onetrust.com/request/v1/createv2request/d5987aed-b01c-4a66-9c9e-8338722dffff",
+    "supported_actions": [
+        "deletion"
+    ],
+    "supported_verfications": [
+        "email",
+        "address"
+    ],
+    "web_url": "https://privacyportaltrial.onetrust.com",
+    "technical_contact": "shegde@onetrust.com",
+    "business_contact": "ksoll@onetrust.com"
+}
