@@ -4,8 +4,8 @@
     "logo": null,
     "api_base": "https://privacyportal.onetrust.com",
     "supported_actions": [
-        "access",
-        "deletion"
+        "deletion",
+        "sale:opt_out"
     ],
     "supported_verfications": [
         "email"
