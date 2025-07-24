@@ -1,21 +1,5 @@
 [
     {
-        "id": "onetrust_lkgb_001",
-        "name": "OneTrust E2E Trial Test Instance",
-        "logo": null,
-        "api_base": "https://privacyportaltrial.onetrust.com",
-        "supported_actions": [
-            "deletion"
-        ],
-        "supported_verfications": [
-            "email",
-            "address"
-        ],
-        "web_url": "https://privacyportaltrial.onetrust.com",
-        "technical_contact": "shegde@onetrust.com",
-        "business_contact": "ksoll@onetrust.com"
-    },
-    {
         "id": "OSIRPIP-CBID-Prod_001",
         "name": "OSIRPIP Prod Deploy Instance",
         "logo": null,
@@ -34,38 +18,6 @@
         "business_contact": "drp.biz@consumer.org"
     },
     {
-        "id": "RUCA_TEST_01",
-        "name": "Ruka - OneTrust Test Tenant",
-        "logo": null,
-        "api_base": "https://privacyportal.onetrust.com",
-        "supported_actions": [
-            "deletion",
-            "sale:opt_out"
-        ],
-        "supported_verfications": [
-            "email"
-        ],
-        "web_url": "https://onetrust.com",
-        "technical_contact": "",
-        "business_contact": ""
-    },
-    {
-        "id": "homedepot_onetrust_001",
-        "name": "Home Depot - OneTrust Tenant",
-        "logo": null,
-        "api_base": "https://privacyportal.onetrust.com",
-        "supported_actions": [
-            "deletion",
-            "sale:opt_out"
-        ],
-        "supported_verfications": [
-            "email"
-        ],
-        "web_url": "https://onetrust.com",
-        "technical_contact": "",
-        "business_contact": ""
-    },
-    {
         "id": "onetrust_staging_001",
         "name": "OneTrust Test Instance",
         "logo": null,
@@ -80,6 +32,38 @@
         "web_url": "https://onetrust.com",
         "technical_contact": "fixme",
         "business_contact": "fixme"
+    },
+    {
+        "id": "onetrust_lkgb_001",
+        "name": "OneTrust E2E Trial Test Instance",
+        "logo": null,
+        "api_base": "https://privacyportaltrial.onetrust.com",
+        "supported_actions": [
+            "deletion"
+        ],
+        "supported_verfications": [
+            "email",
+            "address"
+        ],
+        "web_url": "https://privacyportaltrial.onetrust.com",
+        "technical_contact": "shegde@onetrust.com",
+        "business_contact": "ksoll@onetrust.com"
+    },
+    {
+        "id": "onetrust_prod_002",
+        "name": "OneTrust E2E Trial Prod Instance",
+        "logo": null,
+        "api_base": "https://privacyportal.onetrust.com",
+        "supported_actions": [
+            "deletion"
+        ],
+        "supported_verfications": [
+            "email",
+            "address"
+        ],
+        "web_url": "https://privacyportaltrial.onetrust.com",
+        "technical_contact": "shegde@onetrust.com",
+        "business_contact": "ksoll@onetrust.com"
     },
     {
         "id": "TRANSCEND_TEST_001",
@@ -98,19 +82,35 @@
         "business_contact": ""
     },
     {
-        "id": "onetrust_prod_002",
-        "name": "OneTrust E2E Trial Prod Instance",
+        "id": "homedepot_onetrust_001",
+        "name": "Home Depot - OneTrust Tenant",
+        "logo": null,
+        "api_base": "https://privacyportaluat.onetrust.com",
+        "supported_actions": [
+            "deletion",
+            "sale:opt_out"
+        ],
+        "supported_verfications": [
+            "email"
+        ],
+        "web_url": "https://onetrust.com",
+        "technical_contact": "",
+        "business_contact": ""
+    },
+    {
+        "id": "RUCA_TEST_01",
+        "name": "Ruka - OneTrust Test Tenant",
         "logo": null,
         "api_base": "https://privacyportal.onetrust.com",
         "supported_actions": [
-            "deletion"
+            "deletion",
+            "sale:opt_out"
         ],
         "supported_verfications": [
-            "email",
-            "address"
+            "email"
         ],
-        "web_url": "https://privacyportaltrial.onetrust.com",
-        "technical_contact": "shegde@onetrust.com",
-        "business_contact": "ksoll@onetrust.com"
+        "web_url": "https://onetrust.com",
+        "technical_contact": "",
+        "business_contact": ""
     }
 ]

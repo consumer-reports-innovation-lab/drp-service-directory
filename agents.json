@@ -1,14 +1,5 @@
 [
     {
-        "id": "CR_AA_PS-DRP_ID_STAGE_003",
-        "name": "Pslip-DRP Sandbox Instance",
-        "verify_key": "NL0DYHJRGAMjXG0dluGZKleNZR3bm5a2c/Uoi725ipk=",
-        "web_url": "https://drp-sandbox.datarightsprotocol.org/",
-        "technical_contact": "drp.tech@consumer.org",
-        "business_contact": "drp.biz@consumer.org",
-        "identity_assurance_url": "https://drp-sandbox.datarightsprotocol.org/identity_assurance"
-    },
-    {
         "id": "CR_AA_DRP_ID_001",
         "name": "OSIRAA Prod Instance",
         "verify_key": "5IGzN5pteRQH32Yfvz8QHGhet4u4T5tjWJ4p+rN06ro=",
@@ -16,6 +7,15 @@
         "technical_contact": "john.szinger@consumer.org",
         "business_contact": "ginny.fahs@consumer.org",
         "identity_assurance_url": "https://permissionslipcr.com/XXX"
+    },
+    {
+        "id": "CR_AA_PS-DRP_ID_STAGE_003",
+        "name": "Pslip-DRP Sandbox Instance",
+        "verify_key": "NL0DYHJRGAMjXG0dluGZKleNZR3bm5a2c/Uoi725ipk=",
+        "web_url": "https://drp-sandbox.datarightsprotocol.org/",
+        "technical_contact": "drp.tech@consumer.org",
+        "business_contact": "drp.biz@consumer.org",
+        "identity_assurance_url": "https://drp-sandbox.datarightsprotocol.org/identity_assurance"
     },
     {
         "id": "CR_AA_PS-DRP_PROD_01",
