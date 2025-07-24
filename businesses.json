@@ -101,7 +101,7 @@
         "id": "RUCA_TEST_01",
         "name": "Ruka - OneTrust Test Tenant",
         "logo": null,
-        "api_base": "https://privacyportal.onetrust.com",
+        "api_base": "https://privacyportaluat.onetrust.com",
         "supported_actions": [
             "deletion",
             "sale:opt_out"
