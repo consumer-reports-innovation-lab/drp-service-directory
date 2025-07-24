@@ -2,7 +2,7 @@
     "id": "homedepot_onetrust_001",
     "name": "Home Depot - OneTrust Tenant",
     "logo": null,
-    "api_base": "https://privacyportal.onetrust.com",
+    "api_base": "https://privacyportaluat.onetrust.com",
     "supported_actions": ["deletion", "sale:opt_out"],
     "supported_verfications": ["email"],
     "web_url": "https://onetrust.com",
