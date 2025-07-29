@@ -1,0 +1,10 @@
+{
+    "id": "yorba-aa-prod-v1",
+    "name": "Yorba_Test_1",
+    "verify_key": "dBh8lvv6vqa4jXXdYpYWXz69prA5xbYl5SJf+pUap30=",
+    "web_url": "https://yorba.app",
+    "technical_contact": "schmudde@yorba.co",
+    "business_contact": "chris@yorba.co",
+    "identity_assurance_url":
+    "https://verify.yorba.app/identity-assurance"
+}
