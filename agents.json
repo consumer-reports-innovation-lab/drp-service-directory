@@ -9,6 +9,15 @@
         "identity_assurance_url": "https://permissionslipcr.com/XXX"
     },
     {
+        "id": "yorba_aa_prod_v1",
+        "name": "Yorba_Test_1",
+        "verify_key": "dBh8lvv6vqa4jXXdYpYWXz69prA5xbYl5SJf+pUap30=",
+        "web_url": "https://yorba.app",
+        "technical_contact": "schmudde@yorba.co",
+        "business_contact": "chris@yorba.co",
+        "identity_assurance_url": "https://verify.yorba.app/identity-assurance"
+    },
+    {
         "id": "CR_AA_PS-DRP_ID_STAGE_003",
         "name": "Pslip-DRP Sandbox Instance",
         "verify_key": "NL0DYHJRGAMjXG0dluGZKleNZR3bm5a2c/Uoi725ipk=",
