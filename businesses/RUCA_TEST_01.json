@@ -5,7 +5,7 @@
     "api_base": "https://privacyportaluat.onetrust.com",
     "supported_actions": [
         "deletion",
-        "sale:opt_out"
+        "sale:opt-out"
     ],
     "supported_verfications": [
         "email"
