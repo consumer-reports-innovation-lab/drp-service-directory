@@ -18,7 +18,7 @@
                 "type": "string",
                 "enum": [
                     "access", "deletion",
-                    "sale:opt_out", "sale:opt_in",
+                    "sale:opt-out", "sale:opt-in",
                     "access:categories", "access:specific"
                 ]
             }
